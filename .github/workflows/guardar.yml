@@ -1,6 +1,7 @@
 name: Guardar SIATA
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "* * * * *"
 
